@@ -4,28 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="619e0bc7-ef1e-4554-a279-884ba53a4631" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/addressboock/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/addressboock/dao/Configs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/addressboock/dao/DataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/addressboock/windowcontrollers/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/addressboock/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/addressboock/windowcontrollers/Add.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/addressboock/windowcontrollers/Delete.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/addressboock/windowcontrollers/Search.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/addressboock/windowcontrollers/Table.fxml" afterDir="false" />
+    <list default="true" id="619e0bc7-ef1e-4554-a279-884ba53a4631" name="Changes" comment="Создание разработчиков для инерфейса">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/identifier.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-connector-j-8.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/addressboock/dao/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/addressboock/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/addressboock/models/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/addressboock/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/addressboock/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/addressboock/dao/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/addressboock/dao/DataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/addressboock/windowcontrollers/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/addressboock/windowcontrollers/AddController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/addressboock/windowcontrollers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/addressboock/windowcontrollers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/addressboock/windowcontrollers/Add.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/addressboock/windowcontrollers/Add.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/addressboock/windowcontrollers/Table.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/addressboock/windowcontrollers/Table.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,22 +48,34 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/К/IdeaProjects/AddressBoock/src/main/resources/com/example/addressboock/windowcontrollers",
+    "last_opened_file_path": "C:/Users/К/IdeaProjects/AddressBoock",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite",
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\К\IdeaProjects\AddressBoock" />
+      <recent name="C:\Users\К\IdeaProjects\AddressBoock\src\main\java\com\example\addressboock\dao" />
       <recent name="C:\Users\К\IdeaProjects\AddressBoock\src\main\resources\com\example\addressboock\windowcontrollers" />
       <recent name="C:\Users\К\IdeaProjects\AddressBoock\src\main\resources\com\example\addressboock" />
       <recent name="C:\Users\К\IdeaProjects\AddressBoock\src\main\resources\com\example\addressboock\windowcontroller" />
@@ -77,6 +84,7 @@
       <recent name="C:\Users\К\IdeaProjects\AddressBoock\src\main\resources\com\example\addressboock\windowcontrollers" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.addressboock.dao" />
       <recent name="com.example.addressboock.DAO" />
     </key>
   </component>
@@ -90,11 +98,32 @@
       <updated>1701366961589</updated>
       <workItem from="1701366962693" duration="2570000" />
       <workItem from="1701369550905" duration="1630000" />
-      <workItem from="1701371210165" duration="998000" />
+      <workItem from="1701371210165" duration="6316000" />
+      <workItem from="1701377541913" duration="939000" />
+      <workItem from="1701378515894" duration="1822000" />
+      <workItem from="1701411469721" duration="61000" />
+      <workItem from="1701413760971" duration="587000" />
+      <workItem from="1701414361426" duration="7000" />
+      <workItem from="1701539461578" duration="624000" />
+      <workItem from="1701540097497" duration="23000" />
+      <workItem from="1701540338324" duration="6107000" />
     </task>
+    <task id="LOCAL-00001" summary="Создание разработчиков для инерфейса">
+      <option name="closed" value="true" />
+      <created>1701372532657</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701372532658</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Создание разработчиков для инерфейса" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создание разработчиков для инерфейса" />
   </component>
 </project>

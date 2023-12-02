@@ -2,31 +2,31 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="529.0" prefWidth="447.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.addressboock.windowcontrollers.AddController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="451.0" prefWidth="447.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.addressboock.windowcontrollers.AddController">
     <children>
         <AnchorPane prefHeight="47.0" prefWidth="447.0" style="-fx-background-color: #2E3348;">
             <children>
-                <Label layoutX="93.0" layoutY="12.0" prefHeight="24.0" prefWidth="261.0" text="                Адресная Книга" textFill="#e8e3e3">
+                <Label layoutX="93.0" layoutY="12.0" prefHeight="24.0" prefWidth="261.0" text="                Адресная Книга" textFill="WHITE">
                     <font>
                         <Font name="Franklin Gothic Medium" size="17.0" />
                     </font>
                 </Label>
             </children>
         </AnchorPane>
-        <Button fx:id="Add" layoutX="154.0" layoutY="407.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="141.0" text="Добавать" />
-        <Label layoutX="100.0" layoutY="53.0" prefHeight="37.0" prefWidth="248.0" text="                    Добавь Участника">
+        <Label layoutX="91.0" layoutY="56.0" prefHeight="37.0" prefWidth="248.0" text="                    Добавь Участника">
             <font>
                 <Font name="Franklin Gothic Medium" size="14.0" />
             </font>
         </Label>
-        <PasswordField fx:id="Name" layoutX="93.0" layoutY="105.0" prefHeight="37.0" prefWidth="261.0" promptText="Имя " />
-        <PasswordField fx:id="Telephone" layoutX="94.0" layoutY="209.0" prefHeight="37.0" prefWidth="261.0" promptText="Номер Телефона" />
-        <PasswordField fx:id="Surname" layoutX="94.0" layoutY="156.0" prefHeight="37.0" prefWidth="261.0" promptText="Фамилия" />
-        <PasswordField fx:id="Mail" layoutX="94.0" layoutY="266.0" prefHeight="37.0" prefWidth="261.0" promptText="Электронная почта" />
-        <PasswordField fx:id="Address" layoutX="93.0" layoutY="322.0" prefHeight="37.0" prefWidth="261.0" promptText="Адрес" />
+        <Button fx:id="AddUsers" layoutX="152.0" layoutY="373.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="107.0" text="Добавить" />
+        <TextField fx:id="Name" layoutX="130.0" layoutY="120.0" prefHeight="26.0" prefWidth="171.0" promptText="Имя" />
+        <TextField fx:id="LastName" layoutX="130.0" layoutY="165.0" prefHeight="26.0" prefWidth="171.0" promptText="Фамилия" />
+        <TextField fx:id="Phone" layoutX="130.0" layoutY="209.0" prefHeight="26.0" prefWidth="171.0" promptText="Номер телефона" />
+        <TextField fx:id="Mail" layoutX="130.0" layoutY="252.0" prefHeight="26.0" prefWidth="171.0" promptText="Mail" />
+        <TextField fx:id="Address" layoutX="130.0" layoutY="296.0" prefHeight="26.0" prefWidth="171.0" promptText="Адрес" />
     </children>
 </AnchorPane>

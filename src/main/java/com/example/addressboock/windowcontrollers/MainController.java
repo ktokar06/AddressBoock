@@ -31,25 +31,22 @@ public class MainController {
     @FXML
     void initialize() {
         Add.setOnAction(actionEvent -> {
-            System.out.println("Добавить Участника");
             openNewScene("Add.fxml");
 
         });
 
         Search.setOnAction(actionEvent -> {
-            System.out.println("Добавить Участника");
             openNewScene("Search.fxml");
+
 
         });
 
         Delete.setOnAction(actionEvent -> {
-            System.out.println("Добавить Участника");
             openNewScene("Delete.fxml");
 
         });
 
         Table.setOnAction(actionEvent -> {
-            System.out.println("Добавить Участника");
             openNewScene("Table.fxml");
 
         });
@@ -58,7 +55,7 @@ public class MainController {
     public  void  openNewScene(String window)
     {
 
-        Add.getScene().getWindow().hide();
+        //Add.getScene().getWindow().hide();
 
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(getClass().getResource(window));
@@ -73,6 +70,7 @@ public class MainController {
         Stage stage = new Stage();
         stage.setScene(new Scene(root));
         stage.showAndWait();
+
     }
 }
 
