@@ -6,7 +6,20 @@
 # 📜 Java Web Application: Address Book
 
 This is a JavaFX application for managing an address book, allowing users to add, delete, search, and display contacts. It uses MySQL for backend storage and adheres to an MVC architecture, separating the user interface, business logic, and data access layers.
+## 📦 Installation
 
+1. Clone repositories:
+   
+   ```bash
+   git clone https://github.com/ktokar06/AddressBoock.git
+   ```
+
+2. Go to the project directory:
+   
+   ```bash
+   cd AddressBoock
+   ```
+   
 ## 📋 Features
 1. Add Contacts
   
