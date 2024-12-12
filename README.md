@@ -23,33 +23,33 @@ This is a JavaFX application for managing an address book, allowing users to add
 ## 📋 Features
 1. Add Contacts
   
-Users can add contacts with the following details:
+   Users can add contacts with the following details:
 
-  -  Name
+     -  Name
+       
+     -  Last Name
+       
+     -  Telephone
+     
+     -  Email
     
-  -  Last Name
-    
-  -  Telephone
-  
-  -  Email
- 
-  -  Address
+     -  Address
   
 2. Delete Contacts
 
-  - (Planned) Functionality for removing entries from the database.
+     - (Planned) Functionality for removing entries from the database.
 
 3. Search Contacts
 
-  - (Planned) Functionality to query the database for specific contacts.
+     - (Planned) Functionality to query the database for specific contacts.
 
 4. Display All Contacts
 
-  - (Planned) Displays all stored contacts in a tabular view.
+     - (Planned) Displays all stored contacts in a tabular view.
 
 5. Navigation Between Screens
 
-  - Modular views for "Add", "Search", "Delete", and "Table" functions, seamlessly navigated using JavaFX's FXMLLoader.
+     - Modular views for "Add", "Search", "Delete", and "Table" functions, seamlessly navigated using JavaFX's    FXMLLoader.
     
 ## 🔍 Implementation Details
 ### Database Configuration
